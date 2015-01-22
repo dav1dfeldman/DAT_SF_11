@@ -16,16 +16,16 @@ digraph Tree {
 5 -> 7 ;
 8 [label="X[2] <= 0.5000\nentropy = 0.672572886076\nsamples = 470", shape="box"] ;
 0 -> 8 ;
-9 [label="X[0] <= 9.1729\nentropy = 0.552874197016\nsamples = 374", shape="box"] ;
+9 [label="X[0] <= 9.1666\nentropy = 0.552874197016\nsamples = 374", shape="box"] ;
 8 -> 9 ;
-10 [label="entropy = 0.9852\nsamples = 28\nvalue = [ 16.  12.]", shape="box"] ;
+10 [label="entropy = 0.9784\nsamples = 29\nvalue = [ 17.  12.]", shape="box"] ;
 9 -> 10 ;
-11 [label="entropy = 0.4817\nsamples = 346\nvalue = [ 310.   36.]", shape="box"] ;
+11 [label="entropy = 0.4826\nsamples = 345\nvalue = [ 309.   36.]", shape="box"] ;
 9 -> 11 ;
-12 [label="X[0] <= 53.9601\nentropy = 0.946422050884\nsamples = 96", shape="box"] ;
+12 [label="X[0] <= 42.5393\nentropy = 0.946422050884\nsamples = 96", shape="box"] ;
 8 -> 12 ;
-13 [label="entropy = 0.9793\nsamples = 77\nvalue = [ 45.  32.]", shape="box"] ;
+13 [label="entropy = 0.9911\nsamples = 54\nvalue = [ 30.  24.]", shape="box"] ;
 12 -> 13 ;
-14 [label="entropy = 0.6292\nsamples = 19\nvalue = [ 16.   3.]", shape="box"] ;
+14 [label="entropy = 0.8296\nsamples = 42\nvalue = [ 31.  11.]", shape="box"] ;
 12 -> 14 ;
 }
